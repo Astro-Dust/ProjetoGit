@@ -21,3 +21,9 @@ Comandos do Git:
     git branch -M "nome da branch" => serve para mudar a branch que estará sendo utilizada
         -> git branch -M "main"
         # isso irá mudar o branch padrão "master" para "main"
+
+    git remote add origin "link do repositório criado no GitHub" => prepara para enviar para o GitHub
+
+    git push -u origin main => finalmente envia para o repositório remoto (GitHub)
+        # para isso o git fará você passar pela autenticação, para saber se é mesmo você
+
