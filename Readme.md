@@ -31,4 +31,20 @@ Comandos do Git:
 
     git push origin main => envia para o repositório remoto
         # normalmente, não é mais pedido para se autenticar quando der um "push". Então foi só excluir o "-u" do comando
+        
+    git checkout -b "nome da branch nova" => isso irá criar a nova branch chamada "novo-botao" e você estará dentro dela. Você pode criar arquivos que pertencem apenas a ela, como por exemplo o arquivo "botao.html"
+     	-> git checkout -b "novo-botao"
+     	# depois de criado os arquivos necessários, é só dar um " git add . " e depois "git push origin novo-botao". Atentar-se que não é main, e sim novo-botao, neste caso.
+
+   git checkout "nome da branch"
+   	-> git checkout main
+   	# muda a branch para a escolhida
+   	
+   git merge "branch escolhida" => serve para pegar a branch criada e juntar com a principal (main)
+   	-> git merge novo-botao
+   	# lembrar de mudar para a branch principal:
+   		1. git checkout main
+   		2. git merge novo-botao
+
+
 

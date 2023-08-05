@@ -1,8 +1,18 @@
-const nome = "Ana";
+const name = "Ana";
+const age = 19;
 
 function sayMyName() {
-	return `${nome}. You are goddamn right!`;	
+	return `${name}. You are goddamn right!`;	
 }
 
-const yourName = sayMyName();
-console.log(yourName);
+function sayMyAge(){
+	return `Yes, i'm ${age} years old.`
+}
+
+const myName = sayMyName();
+const myAge = sayMyAge();
+
+console.log(myName);
+console.log(myAge);
+
+
