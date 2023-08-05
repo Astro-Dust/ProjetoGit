@@ -14,6 +14,8 @@ Comandos do Git:
         -> git add Readme.md
         # escreva " git status " para ter noção de quais arquivos estão prontos para dar commit
 
+    git add . => peparação de todos os arquivos para o commit
+
     git status => mostra quais arquivos estão prontos para dar commit
 
     git commit -m "mensagem" => serve para dar commit de um ou mais arquivos usando uma mensagem e enviando-os para o                                 repositório local
@@ -26,4 +28,7 @@ Comandos do Git:
 
     git push -u origin main => finalmente envia para o repositório remoto (GitHub)
         # para isso o git fará você passar pela autenticação, para saber se é mesmo você
+
+    git push origin main => envia para o repositório remoto
+        # normalmente, não é mais pedido para se autenticar quando der um "push". Então foi só excluir o "-u" do comando
 
