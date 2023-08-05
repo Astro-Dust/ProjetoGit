@@ -15,3 +15,9 @@ Comandos do Git:
         # escreva " git status " para ter noção de quais arquivos estão prontos para dar commit
 
     git status => mostra quais arquivos estão prontos para dar commit
+
+    git commit -m "mensagem" => serve para dar commit de um ou mais arquivos usando uma mensagem e enviando-os para o                                 repositório local
+
+    git branch -M "nome da branch" => serve para mudar a branch que estará sendo utilizada
+        -> git branch -M "main"
+        # isso irá mudar o branch padrão "master" para "main"
