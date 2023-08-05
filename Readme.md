@@ -45,6 +45,12 @@ Comandos do Git:
    	# lembrar de mudar para a branch principal:
    		1. git checkout main
    		2. git merge novo-botao
+   		
+   git clone "link".git => serve para clonar um repositório qualquer do GitHub (no caso é a URL.git)
+   		
+   git pull => serve para atualizar um arquivo que foi clonado do GitHub (precisa estar dentro da pasta do arquivo)
+   	-> git pull GitTutorial
+   	# é basicamente isso. Já vai atualizar automaticamente
 
 
 
